@@ -40,5 +40,9 @@
 - Podem incluir números, mas não podem começar com números.
 - Não podem ser palavras reservadas (como for, if, let, etc.).
 
-## Como chamar uma variável em um texto
+## Como chamar uma variável em um texto?
 - Inicie com acrase, sifrão, chaves e variável: `Ola, meu nome é ${nome} `
+
+## Como fazer uma lista?
+- const listaNomes = ['João', 'Andre', 'Paoulo', 'Pablo'...]
+- Solução à const nome1 =; const nome2 =...

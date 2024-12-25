@@ -1,0 +1,1 @@
+const listaNomes = ['João', 'Andre', 'Paulo']
