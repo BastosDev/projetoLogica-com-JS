@@ -30,3 +30,7 @@
         - OPTIONS: Verificar os métodos permitidos para um recurso.
         - TRACE: Verificar o caminho percorrido pela requisição.
         - CONNECT: Estabelecer um túnel de comunicação.
+
+## const e let:
+- Const é utilizado para variáveis inalteradas
+- Let é utilizado para variáveis que podem mudar no meio do código
