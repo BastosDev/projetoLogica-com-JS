@@ -34,3 +34,11 @@
 ## const e let:
 - Const é utilizado para variáveis inalteradas
 - Let é utilizado para variáveis que podem mudar no meio do código
+
+## Regra para definir variáveis
+- Devem começar com uma letra (a-z, A-Z), um símbolo de sublinhado (_) ou o cifrão ($).
+- Podem incluir números, mas não podem começar com números.
+- Não podem ser palavras reservadas (como for, if, let, etc.).
+
+## Como chamar uma variável em um texto
+- Inicie com acrase, sifrão, chaves e variável: `Ola, meu nome é ${nome} `
