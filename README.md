@@ -47,6 +47,8 @@
 - const listaNomes = ['João', 'Andre', 'Paoulo', 'Pablo'...]
 - Solução à const nome1 =; const nome2 =...
 - Para chamar o usuario especifico é -> console.log("Ola", listaNome[0])
+- .length pega o numero de arrays da lista
+    - Ex.: const numeroDeUsuarios = listaNomes.length(nesse caso é 4)
 
 ## Formata automaticamente :
 - npx eslint --fix *.js
@@ -70,3 +72,4 @@
         console.log("Continuara rodando ate que as variaveis não atendam ao requisito")
         rodouNVezes = rodouNVezes + 1
     }
+    - F2 para mudar o nome das variaveis todas as vezes que ele aparece

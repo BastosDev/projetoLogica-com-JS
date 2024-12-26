@@ -29,3 +29,12 @@ if (podeDirigir){
 
 console.log({ numeroDePassageiros })
 
+const nomesLista = ["João", "Noé", "Pedro"];
+
+const numeroDeUsuarios = nomesLista.length
+let i = 0
+
+while (i < numeroDeUsuarios){
+    console.log(`Ola ${nomesLista[i]}`)
+    i = i + 1
+}
