@@ -3,16 +3,14 @@ const listaDeNomes = ["Gustavo", "Jose", "Ana", "Maria", "Carlos", "Luciana", "P
 let encontrarUsuario = false
 let i = 0
 
-while (!encontrarUsuario) {
-    const usuarioAtual = listaDeNomes[i]
-
-    if (usuarioAtual.startsWith("X")) {
-        console.log (`Usuario encontrado : ${usuarioAtual}`)
+while ( !encontrarUsuario ) {
+    const usuario = listaDeNomes[i]
+    
+    if (usuario.startsWith("L")) {
         encontrarUsuario = true
+        console.log(`Usuário encontrado : ${usuario}`)
     } else {
         encontrarUsuario = true
-        console.log("Usuario não encontrado")
+        console.log("Usuário não encontrado")
     }
-
-    i += 1
 }
