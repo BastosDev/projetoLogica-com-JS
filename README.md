@@ -49,6 +49,8 @@
 - Para chamar o usuario especifico é -> console.log("Ola", listaNome[0])
 - .length pega o numero de arrays da lista
     - Ex.: const numeroDeUsuarios = listaNomes.length(nesse caso é 4)
+    - Ou em while pode usar sem definir a variavel
+        Ex.: while (i < listaNomes.length)
 
 ## Formata automaticamente :
 - npx eslint --fix *.js
