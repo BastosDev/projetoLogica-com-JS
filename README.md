@@ -46,6 +46,7 @@
 ## Como fazer uma lista?
 - const listaNomes = ['João', 'Andre', 'Paoulo', 'Pablo'...]
 - Solução à const nome1 =; const nome2 =...
+- Para chamar o usuario especifico é -> console.log("Ola", listaNome[0])
 
 ## Formata automaticamente :
 - npx eslint --fix *.js
