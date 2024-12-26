@@ -57,3 +57,6 @@
 ## Comparação Truthy e Falsy
 - (!![] ; !!{} ; !!num > 0 ; !!"String") == True(Truthy)
 - (!!null ; !!undefined ; !!NaN; !!num = 0; !!"" -> string vazia) == False(Falsy)
+
+## Teste de verificação
+- Use ? V:F para teste de verificação

@@ -15,3 +15,16 @@ console.log(!!null, !!NaN, !!undefined, !!0, !!"")
 if ((null || NaN || undefined || 0 || "") == false){
     console.log("Falsyyyyyy")
 }
+
+const temCNH = true 
+const idade = 18
+const podeDirigir = idade => 18 && temCNH
+const numeroDePassageiros = podeDirigir ? 4 : 0
+
+if (podeDirigir){
+    console.log("Pode Dirigir")
+}else{
+    console.log("Você é barbeiro rapaz")
+}
+
+console.log({ numeroDePassageiros })
