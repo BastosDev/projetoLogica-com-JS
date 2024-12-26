@@ -51,6 +51,17 @@
     - Ex.: const numeroDeUsuarios = listaNomes.length(nesse caso é 4)
     - Ou em while pode usar sem definir a variavel
         Ex.: while (i < listaNomes.length)
+- .push acrescente o valor na lista
+    - Ex .:
+        - while (i < listaDeNumeros.length){
+            if (listaDeNumeros[i] % 2 === 0) {
+                numerosPar.push(listaDeNumeros[i])
+            }
+            else {
+                numeroImpar.push(listaDeNumeros[i])
+            }
+            i += 1
+           }
 
 ## Formata automaticamente :
 - npx eslint --fix *.js

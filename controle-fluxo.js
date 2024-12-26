@@ -36,5 +36,5 @@ let i = 0
 
 while (i < numeroDeUsuarios){
     console.log(`Ola ${nomesLista[i]}`)
-    i = i + 1
+    i += 1
 }
