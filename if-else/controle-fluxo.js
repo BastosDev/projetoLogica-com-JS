@@ -18,7 +18,7 @@ if ((null || NaN || undefined || 0 || "") == false){
 
 const temCNH = true 
 const idade = 18
-const podeDirigir = idade => 18 && temCNH
+const podeDirigir = idade > 18 && temCNH
 const numeroDePassageiros = podeDirigir ? 4 : 0
 
 if (podeDirigir){
