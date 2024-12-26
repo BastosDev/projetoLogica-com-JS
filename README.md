@@ -90,3 +90,6 @@
 ## For
 - É mais robusto que while
 - variável contadora declarada dentro do próprio for
+    - Ex.: for(let i = 0 ; i < x.length ; i++)
+    - Ex(for of) .: for( let elements of names ) --> lista os elementos dos names
+    - Ex(for in) .: for( const elements in animals ) --> lista um elemento especifico dos names, podendo ser alterado de for mais específica --> if elements == "habitat" -> ...
