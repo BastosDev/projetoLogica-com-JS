@@ -53,3 +53,7 @@
 
 ## Converter para boole
 - "!!" converte para valores booleanos
+
+## Comparação Truthy e Falsy
+- (!![] ; !!{} ; !!num > 0 ; !!"String") == True(Truthy)
+- (!!null ; !!undefined ; !!NaN; !!num = 0; !!"" -> string vazia) == False(Falsy)
