@@ -61,3 +61,12 @@
 
 ## Teste de verificação
 - Use ? V:F para teste de verificação
+
+## While
+- É uma linha de repetição que funciona da seguinte forma:
+    - let rodouNVezes = 0
+    - const vezesQueDevoRodar = 4
+    - while (rodouNVezes < vezesQueDevoRodar) {
+        console.log("Continuara rodando ate que as variaveis não atendam ao requisito")
+        rodouNVezes = rodouNVezes + 1
+    }
