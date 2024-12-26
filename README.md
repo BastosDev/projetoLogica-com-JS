@@ -50,3 +50,6 @@
 ## Formata automaticamente :
 - npx eslint --fix *.js
     - formata todos os arquivos .js para remover erros de identação
+
+## Converter para boole
+- "!!" converte para valores booleanos
