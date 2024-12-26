@@ -86,3 +86,7 @@
         rodouNVezes = rodouNVezes + 1
     }
     - F2 para mudar o nome das variaveis todas as vezes que ele aparece
+
+## For
+- É mais robusto que while
+- variável contadora declarada dentro do próprio for
