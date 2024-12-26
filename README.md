@@ -93,3 +93,6 @@
     - Ex.: for(let i = 0 ; i < x.length ; i++)
     - Ex(for of) .: for( let elements of names ) --> lista os elementos dos names
     - Ex(for in) .: for( const elements in animals ) --> lista um elemento especifico dos names, podendo ser alterado de for mais específica --> if elements == "habitat" -> ...
+        - O for in é utilizado em momentos que o for of não pode ser utilizado
+            - Ex.: Quando é para percorrer objetos
+            - O for in não é normalmente utilizado para arrays tambem
