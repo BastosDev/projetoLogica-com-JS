@@ -46,3 +46,7 @@
 ## Como fazer uma lista?
 - const listaNomes = ['João', 'Andre', 'Paoulo', 'Pablo'...]
 - Solução à const nome1 =; const nome2 =...
+
+## Formata automaticamente :
+- npx eslint --fix *.js
+    - formata todos os arquivos .js para remover erros de identação
